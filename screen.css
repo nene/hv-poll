@@ -1,0 +1,40 @@
+body {
+    font-family:Verdana,Arial,sans-serif;
+    margin:2em 2em;
+    padding:0;
+    background:url(http://foorum.hinnavaatlus.ee/templates/HinnaVaatlus/imagesHV/hinnavaatlus.gif) top right no-repeat;
+}
+p.error {color:red; font-size:smaller; }
+p.error strong {font-weight:normal}
+
+.text input {width:3em}
+
+li {list-style-type:none;display:block}
+ul {margin-left:0; padding-left:0}
+
+h1 {margin-top:1.5em}
+h2 {font-size:larger; font-weight:normal; margin-top: 2.5em}
+
+legend{font-size:larger}
+fieldset{border:none; margin-top: 2.5em}
+
+h1,h2,legend,caption {color:#2a3588}
+h1:first-letter,h2:first-letter,legend:first-letter,caption:first-letter {color:red}
+
+li p {margin: 0}
+
+span.small{display:block; font-size:medium}
+
+a {color:#2a3588}
+a:hover {color:red}
+
+
+table {width:100%; margin: 3em 0}
+caption {font-size:larger}
+th {color:white; background:#2a3588}
+.even {background:#eee}
+
+th.first-child{ width:50%}
+
+td {padding: 0 1em}
+td.numeric {text-align:right}
